@@ -1,0 +1,185 @@
+/* ProductList.css */
+
+.product-list-container {
+  padding: 50px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-container {
+  margin-top: 20px;
+}
+
+.pagination-button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust this according to your design */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+/* ProductList.css */
+
+/* Filters Section */
+.filters-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Category Filter */
+.category-filter {
+  margin-bottom: 15px;
+}
+
+/* Stock Filter */
+.stock-filter {
+  margin-bottom: 15px;
+}
+
+/* Price Filter */
+.price-filter {
+  margin-bottom: 15px;
+}
+
+/* Price Filter Inputs */
+.price-filter input {
+  width: 80px; /* Adjust width as needed */
+  margin-right: 10px;
+}
+
+/* Price Filter Button */
+.price-filter button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-filter button:hover {
+  background-color: #0056b3;
+}
+
+/* Pagination Controls */
+.pagination-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+/* CategoryFilter.css */
+
+/* Category Filter Container */
+.category-filter-container {
+  margin-bottom: 15px;
+}
+
+/* Category Filter Title */
+.category-filter-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Category Filter Select */
+.category-filter-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* PriceFilter.css */
+
+/* Price Filter Container */
+.price-filter-container {
+  margin-bottom: 15px;
+}
+
+/* Price Filter Title */
+.price-filter-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Price Filter Input Container */
+.price-filter-input-container {
+  margin-top: 5px;
+}
+
+/* Price Filter Label */
+.price-filter-label {
+  margin-right: 10px;
+}
+
+/* Price Filter Input */
+.price-filter-input {
+  width: 100px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ProductList.css */
+
+/* Filters Section */
+.filters-section {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Search Filter Container */
+.search-filter-container {
+  margin-bottom: 15px;
+}
+
+/* Search Filter Input */
+.search-filter-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Other Filter Styles Remain the Same */
